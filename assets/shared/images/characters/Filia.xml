@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Filia.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Filia Attack0000" x="0" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0001" x="0" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0002" x="1428" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0003" x="2856" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0004" x="4284" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0005" x="4284" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0006" x="5712" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0007" x="5712" y="0" width="1428" height="862" frameX="-2" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0008" x="0" y="862" width="1400" height="862" frameX="0" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Attack0009" x="0" y="862" width="1400" height="862" frameX="0" frameY="0" frameWidth="1430" frameHeight="862"/>
+	<SubTexture name="Filia Block0000" x="1400" y="862" width="851" height="777"/>
+	<SubTexture name="Filia Block0001" x="2251" y="862" width="851" height="777"/>
+	<SubTexture name="Filia Block0002" x="3102" y="862" width="838" height="758" frameX="-13" frameY="-19" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0003" x="3102" y="862" width="838" height="758" frameX="-13" frameY="-19" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0004" x="3940" y="862" width="812" height="744" frameX="-39" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0005" x="3940" y="862" width="812" height="744" frameX="-39" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0006" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0007" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0008" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0009" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0010" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0011" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0012" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Block0013" x="4752" y="862" width="800" height="744" frameX="-51" frameY="-33" frameWidth="851" frameHeight="777"/>
+	<SubTexture name="Filia Down0000" x="5552" y="862" width="766" height="692" frameX="0" frameY="-5" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0001" x="5552" y="862" width="766" height="692" frameX="0" frameY="-5" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0002" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0003" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0004" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0005" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0006" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0007" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0008" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0009" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0010" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0011" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0012" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0013" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0014" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0015" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0016" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0017" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0018" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0019" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0020" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0021" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0022" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0023" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0024" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0025" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Down0026" x="6318" y="862" width="759" height="697" frameX="-7" frameY="0" frameWidth="766" frameHeight="697"/>
+	<SubTexture name="Filia Hurt0000" x="7077" y="862" width="800" height="749" frameX="-30" frameY="-40" frameWidth="854" frameHeight="789"/>
+	<SubTexture name="Filia Hurt0001" x="0" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0002" x="854" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0003" x="1708" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0004" x="2562" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0005" x="3416" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0006" x="4270" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0007" x="3416" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0008" x="4270" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0009" x="3416" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0010" x="4270" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0011" x="3416" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0012" x="4270" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Hurt0013" x="3416" y="1724" width="854" height="789"/>
+	<SubTexture name="Filia Idle0000" x="5124" y="1724" width="726" height="850" frameX="-12" frameY="-2" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0001" x="5124" y="1724" width="726" height="850" frameX="-12" frameY="-2" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0002" x="5850" y="1724" width="766" height="877"/>
+	<SubTexture name="Filia Idle0003" x="5850" y="1724" width="766" height="877"/>
+	<SubTexture name="Filia Idle0004" x="6616" y="1724" width="705" height="835" frameX="-20" frameY="-1" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0005" x="6616" y="1724" width="705" height="835" frameX="-20" frameY="-1" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0006" x="7321" y="1724" width="610" height="765" frameX="-56" frameY="-13" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0007" x="7321" y="1724" width="610" height="765" frameX="-56" frameY="-13" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0008" x="0" y="2601" width="596" height="747" frameX="-66" frameY="-18" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0009" x="0" y="2601" width="596" height="747" frameX="-66" frameY="-18" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0010" x="0" y="2601" width="596" height="747" frameX="-66" frameY="-18" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0011" x="0" y="2601" width="596" height="747" frameX="-66" frameY="-18" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0012" x="0" y="2601" width="596" height="747" frameX="-66" frameY="-18" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Idle0013" x="0" y="2601" width="596" height="747" frameX="-66" frameY="-18" frameWidth="766" frameHeight="877"/>
+	<SubTexture name="Filia Left0000" x="596" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0001" x="596" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0002" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0003" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0004" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0005" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0006" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0007" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0008" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0009" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0010" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0011" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0012" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0013" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0014" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0015" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0016" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0017" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0018" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0019" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0020" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0021" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0022" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0023" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0024" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0025" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Left0026" x="1380" y="2601" width="784" height="783"/>
+	<SubTexture name="Filia Miss Down0000" x="2164" y="2601" width="1045" height="978" frameX="0" frameY="-5" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0001" x="3209" y="2601" width="1026" height="994" frameX="-7" frameY="0" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0002" x="3209" y="2601" width="1026" height="994" frameX="-7" frameY="0" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0003" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0004" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0005" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0006" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0007" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0008" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0009" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0010" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0011" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0012" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0013" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0014" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0015" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0016" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0017" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0018" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0019" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0020" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0021" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0022" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0023" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0024" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0025" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Down0026" x="4235" y="2601" width="1046" height="975" frameX="0" frameY="-11" frameWidth="1046" frameHeight="994"/>
+	<SubTexture name="Filia Miss Left0000" x="5281" y="2601" width="969" height="987" frameX="0" frameY="-3" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0001" x="6250" y="2601" width="912" height="979" frameX="-40" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0002" x="6250" y="2601" width="912" height="979" frameX="-40" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0003" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0004" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0005" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0006" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0007" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0008" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0009" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0010" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0011" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0012" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0013" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0014" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0015" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0016" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0017" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0018" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0019" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0020" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0021" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0022" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0023" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0024" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0025" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Left0026" x="7162" y="2601" width="926" height="979" frameX="-20" frameY="0" frameWidth="969" frameHeight="990"/>
+	<SubTexture name="Filia Miss Right0000" x="0" y="3595" width="993" height="994" frameX="-3" frameY="-3" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0001" x="993" y="3595" width="933" height="1003" frameX="0" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0002" x="993" y="3595" width="933" height="1003" frameX="0" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0003" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0004" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0005" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0006" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0007" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0008" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0009" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0010" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0011" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0012" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0013" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0014" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0015" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0016" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0017" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0018" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0019" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0020" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0021" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0022" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0023" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0024" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0025" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Right0026" x="1926" y="3595" width="934" height="1004" frameX="-1" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Miss Up0000" x="2860" y="3595" width="648" height="1059" frameX="-15" frameY="0" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0001" x="3508" y="3595" width="681" height="1008" frameX="0" frameY="-50" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0002" x="3508" y="3595" width="681" height="1008" frameX="0" frameY="-50" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0003" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0004" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0005" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0006" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0007" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0008" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0009" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0010" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0011" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0012" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0013" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0014" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0015" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0016" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0017" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0018" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0019" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0020" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0021" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0022" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0023" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0024" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0025" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Miss Up0026" x="4189" y="3595" width="668" height="1029" frameX="-6" frameY="-29" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Pre Attack0000" x="4857" y="3595" width="835" height="775" frameX="-16" frameY="0" frameWidth="851" frameHeight="775"/>
+	<SubTexture name="Filia Pre Attack0001" x="4857" y="3595" width="835" height="775" frameX="-16" frameY="0" frameWidth="851" frameHeight="775"/>
+	<SubTexture name="Filia Pre Attack0002" x="5692" y="3595" width="851" height="775"/>
+	<SubTexture name="Filia Pre Attack0003" x="5692" y="3595" width="851" height="775"/>
+	<SubTexture name="Filia Right0000" x="0" y="3595" width="993" height="994" frameX="80" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Right0001" x="0" y="3595" width="993" height="994" frameX="80" frameY="0" frameWidth="996" frameHeight="1004"/>
+	<SubTexture name="Filia Right0002" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0003" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0004" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0005" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0006" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0007" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0008" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0009" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0010" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0011" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0012" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0013" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0014" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0015" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0016" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0017" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0018" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0019" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0020" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0021" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0022" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0023" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0024" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0025" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Right0026" x="6543" y="3595" width="784" height="784"/>
+	<SubTexture name="Filia Up0000" x="2860" y="3595" width="648" height="1059" frameX="-21" frameY="0" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Up0001" x="2860" y="3595" width="648" height="1059" frameX="-21" frameY="0" frameWidth="681" frameHeight="1059"/>
+	<SubTexture name="Filia Up0002" x="7327" y="3595" width="687" height="1002" frameX="0" frameY="-56" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0003" x="7327" y="3595" width="687" height="1002" frameX="0" frameY="-56" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0004" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0005" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0006" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0007" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0008" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0009" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0010" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0011" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0012" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0013" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0014" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0015" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0016" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0017" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0018" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0019" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0020" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0021" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0022" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0023" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0024" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0025" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+	<SubTexture name="Filia Up0026" x="0" y="4654" width="681" height="1008" frameX="-6" frameY="-50" frameWidth="687" frameHeight="1059"/>
+</TextureAtlas>

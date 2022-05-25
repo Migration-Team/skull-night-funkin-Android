@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="attackNOTES.png">
+<SubTexture name="A0000" x="0" y="0" width="190" height="188" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="A tail0000" x="481" y="186" width="51" height="65" frameX="0" frameY="0" frameWidth="51" frameHeight="65" />
+<SubTexture name="A hold0000" x="482" y="252" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="B0000" x="190" y="0" width="189" height="187" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="B tail0000" x="379" y="252" width="51" height="65" frameX="0" frameY="0" frameWidth="51" frameHeight="65" />
+<SubTexture name="B hold0000" x="379" y="317" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="C0000" x="189" y="188" width="189" height="186" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="C tail0000" x="430" y="186" width="51" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="66" />
+<SubTexture name="C hold0000" x="481" y="317" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="D0000" x="0" y="188" width="189" height="187" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="D tail0000" x="430" y="252" width="52" height="65" frameX="0" frameY="0" frameWidth="52" frameHeight="65" />
+<SubTexture name="D hold0000" x="0" y="375" width="52" height="45" frameX="0" frameY="0" frameWidth="52" frameHeight="45" />
+<SubTexture name="E0000" x="379" y="0" width="189" height="186" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="E tail0000" x="379" y="186" width="51" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="66" />
+<SubTexture name="E hold0000" x="430" y="317" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="F0000" x="0" y="0" width="190" height="188" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="F tail0000" x="481" y="186" width="51" height="65" frameX="0" frameY="0" frameWidth="51" frameHeight="65" />
+<SubTexture name="F hold0000" x="482" y="252" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="G0000" x="190" y="0" width="189" height="187" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="G tail0000" x="379" y="252" width="51" height="65" frameX="0" frameY="0" frameWidth="51" frameHeight="65" />
+<SubTexture name="G hold0000" x="379" y="317" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="H0000" x="189" y="188" width="189" height="186" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="H tail0000" x="430" y="186" width="51" height="66" frameX="0" frameY="0" frameWidth="51" frameHeight="66" />
+<SubTexture name="H hold0000" x="481" y="317" width="51" height="45" frameX="0" frameY="0" frameWidth="51" frameHeight="45" />
+<SubTexture name="I0000" x="0" y="188" width="189" height="187" frameX="-3" frameY="18" frameWidth="190" frameHeight="190" />
+<SubTexture name="I tail0000" x="430" y="252" width="52" height="65" frameX="0" frameY="0" frameWidth="52" frameHeight="65" />
+<SubTexture name="I hold0000" x="0" y="375" width="52" height="45" frameX="0" frameY="0" frameWidth="52" frameHeight="45" />
+</TextureAtlas>

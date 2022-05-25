@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Cat Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				104,
+				-193
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Cat Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				45,
+				11
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Cat Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				12
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Cat Miss Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				105,
+				-175
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Cat Miss Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				310,
+				-70
+			],
+			"anim": "pre-attack",
+			"fps": 25,
+			"name": "Cat Pre Attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				397,
+				-71
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "Cat Attack",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-65,
+				-45
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Cat Left"
+		},
+		{
+			"offsets": [
+				207,
+				-107
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Cat Right"
+		},
+		{
+			"offsets": [
+				-66,
+				-7
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Cat Miss Left"
+		},
+		{
+			"offsets": [
+				205,
+				-110
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "Cat Miss Right"
+		},
+		{
+			"offsets": [
+				50,
+				-13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hurt",
+			"loop": false,
+			"name": "Cat Hit"
+		},
+		{
+			"offsets": [
+				-70,
+				20
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "dodge",
+			"loop": false,
+			"name": "Cat Dodge"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cat",
+	"position": [
+		-180,
+		-60
+	],
+	"healthicon": "msfortune",
+	"flip_x": false,
+	"healthbar_colors": [
+		193,
+		146,
+		139
+	],
+	"camera_position": [
+		310,
+		30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

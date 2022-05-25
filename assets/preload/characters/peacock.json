@@ -1,0 +1,111 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-138,
+				-31
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				71,
+				-133
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				55,
+				113
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-30,
+				-21
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				131,
+				62
+			],
+			"anim": "attack",
+			"fps": 24,
+			"name": "attack",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				122,
+				-68
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "hurt",
+			"indices": []
+		},
+		{
+			"offsets": [
+				17,
+				-117
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "pre_attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-4
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/peacock",
+	"position": [
+		-320,
+		30
+	],
+	"healthicon": "icon-peacock",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		155,
+		0
+	],
+	"camera_position": [
+		70,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 0.85
+}

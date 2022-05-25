@@ -1,0 +1,49 @@
+{
+	"storyName": "You are not supposed to see this",
+	"difficulties": "Easy, Normal, Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"thunderwulf",
+			"wulf",
+			[
+				20,
+				0,
+				20
+			]
+		],
+		[
+			"parasitance",
+			"filia",
+			[
+				66,
+				113,
+				253
+			]
+		],
+		[
+			"trouble makers",
+			"peacock",
+			[
+				186,
+				153,
+				115
+			]
+		]
+	],
+	"weekName": "Custom Week"
+}

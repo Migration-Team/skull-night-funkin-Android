@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BANANA.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Fukuanana Attack0000" x="0" y="0" width="849" height="663" frameX="-27" frameY="-22" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0001" x="849" y="0" width="1212" height="663" frameX="-27" frameY="-22" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0002" x="2061" y="0" width="1268" height="684" frameX="0" frameY="-1" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0003" x="3329" y="0" width="1299" height="684" frameX="0" frameY="-1" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0004" x="4628" y="0" width="1294" height="685" frameX="-5" frameY="0" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0005" x="5922" y="0" width="847" height="685" frameX="-5" frameY="0" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0006" x="6769" y="0" width="855" height="678" frameX="-27" frameY="-7" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0007" x="6769" y="0" width="855" height="678" frameX="-27" frameY="-7" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0008" x="0" y="685" width="852" height="671" frameX="-27" frameY="-14" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Attack0009" x="0" y="685" width="852" height="671" frameX="-27" frameY="-14" frameWidth="1299" frameHeight="685"/>
+	<SubTexture name="Fukuanana Dodge0000" x="852" y="685" width="556" height="670" frameX="0" frameY="-9" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0001" x="1408" y="685" width="556" height="679" frameX="0" frameY="0" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0002" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0003" x="2522" y="685" width="560" height="672" frameX="-3" frameY="-6" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0004" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0005" x="2522" y="685" width="560" height="672" frameX="-3" frameY="-6" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0006" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0007" x="2522" y="685" width="560" height="672" frameX="-3" frameY="-6" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0008" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0009" x="2522" y="685" width="560" height="672" frameX="-3" frameY="-6" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0010" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0011" x="2522" y="685" width="560" height="672" frameX="-3" frameY="-6" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0012" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0013" x="2522" y="685" width="560" height="672" frameX="-3" frameY="-6" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Dodge0014" x="1964" y="685" width="558" height="663" frameX="-3" frameY="-15" frameWidth="563" frameHeight="679"/>
+	<SubTexture name="Fukuanana Down0000" x="3082" y="685" width="664" height="641" frameX="0" frameY="-27" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0001" x="3082" y="685" width="664" height="641" frameX="0" frameY="-27" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0002" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0003" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0004" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0005" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0006" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0007" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0008" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0009" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0010" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0011" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0012" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0013" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0014" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0015" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0016" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0017" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0018" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0019" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0020" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0021" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0022" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0023" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0024" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0025" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Down0026" x="3746" y="685" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Hurt0000" x="4378" y="685" width="586" height="670" frameX="-14" frameY="0" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0001" x="4964" y="685" width="586" height="667" frameX="0" frameY="-3" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0002" x="5550" y="685" width="586" height="667" frameX="0" frameY="-3" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0003" x="6136" y="685" width="588" height="665" frameX="-7" frameY="-5" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0004" x="6724" y="685" width="588" height="665" frameX="-7" frameY="-5" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0005" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0006" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0007" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0008" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0009" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0010" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0011" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0012" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0013" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0014" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0015" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0016" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0017" x="7312" y="685" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Hurt0018" x="0" y="1364" width="579" height="664" frameX="-21" frameY="-6" frameWidth="600" frameHeight="670"/>
+	<SubTexture name="Fukuanana Idle0000" x="579" y="1364" width="543" height="685" frameX="-2" frameY="-1" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0001" x="579" y="1364" width="543" height="685" frameX="-2" frameY="-1" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0002" x="1122" y="1364" width="550" height="676" frameX="0" frameY="-9" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0003" x="1122" y="1364" width="550" height="676" frameX="0" frameY="-9" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0004" x="1672" y="1364" width="535" height="686" frameX="-7" frameY="0" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0005" x="1672" y="1364" width="535" height="686" frameX="-7" frameY="0" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0006" x="2207" y="1364" width="519" height="682" frameX="-18" frameY="-4" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0007" x="2207" y="1364" width="519" height="682" frameX="-18" frameY="-4" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0008" x="2726" y="1364" width="510" height="673" frameX="-33" frameY="-13" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0009" x="2726" y="1364" width="510" height="673" frameX="-33" frameY="-13" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0010" x="3236" y="1364" width="491" height="670" frameX="-44" frameY="-16" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0011" x="3236" y="1364" width="491" height="670" frameX="-44" frameY="-16" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0012" x="3236" y="1364" width="491" height="670" frameX="-44" frameY="-16" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Idle0013" x="3236" y="1364" width="491" height="670" frameX="-44" frameY="-16" frameWidth="550" frameHeight="686"/>
+	<SubTexture name="Fukuanana Left0000" x="3727" y="1364" width="464" height="676" frameX="0" frameY="-1" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0001" x="3727" y="1364" width="464" height="676" frameX="0" frameY="-1" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0002" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0003" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0004" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0005" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0006" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0007" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0008" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0009" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0010" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0011" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0012" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0013" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0014" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0015" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0016" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0017" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0018" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0019" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0020" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0021" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0022" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0023" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0024" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0025" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Left0026" x="4191" y="1364" width="456" height="677" frameX="-18" frameY="0" frameWidth="474" frameHeight="677"/>
+	<SubTexture name="Fukuanana Miss Down0000" x="3082" y="685" width="664" height="641" frameX="0" frameY="-27" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0001" x="4647" y="1364" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0002" x="4647" y="1364" width="632" height="666" frameX="-28" frameY="0" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0003" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0004" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0005" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0006" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0007" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0008" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0009" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0010" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0011" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0012" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0013" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0014" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0015" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0016" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0017" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0018" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0019" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0020" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0021" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0022" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0023" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0024" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0025" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Down0026" x="5279" y="1364" width="645" height="653" frameX="-19" frameY="-13" frameWidth="664" frameHeight="668"/>
+	<SubTexture name="Fukuanana Miss Left0000" x="5924" y="1364" width="465" height="671" frameX="0" frameY="-7" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0001" x="6389" y="1364" width="457" height="677" frameX="-18" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0002" x="6389" y="1364" width="457" height="677" frameX="-18" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0003" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0004" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0005" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0006" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0007" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0008" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0009" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0010" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0011" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0012" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0013" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0014" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0015" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0016" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0017" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0018" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0019" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0020" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0021" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0022" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0023" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0024" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0025" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Left0026" x="6846" y="1364" width="473" height="677" frameX="-1" frameY="0" frameWidth="475" frameHeight="678"/>
+	<SubTexture name="Fukuanana Miss Right0000" x="7319" y="1364" width="646" height="680" frameX="0" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0001" x="0" y="2050" width="621" height="681" frameX="-9" frameY="0" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0002" x="0" y="2050" width="621" height="681" frameX="-9" frameY="0" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0003" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0004" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0005" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0006" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0007" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0008" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0009" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0010" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0011" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0012" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0013" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0014" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0015" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0016" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0017" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0018" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0019" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0020" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0021" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0022" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0023" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0024" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0025" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Right0026" x="621" y="2050" width="636" height="681" frameX="-11" frameY="-1" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Miss Up0000" x="1257" y="2050" width="526" height="717"/>
+	<SubTexture name="Fukuanana Miss Up0001" x="1783" y="2050" width="504" height="696" frameX="-15" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0002" x="1783" y="2050" width="504" height="696" frameX="-15" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0003" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0004" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0005" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0006" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0007" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0008" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0009" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0010" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0011" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0012" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0013" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0014" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0015" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0016" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0017" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0018" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0019" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0020" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0021" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0022" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0023" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0024" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0025" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Miss Up0026" x="2287" y="2050" width="494" height="710" frameX="-20" frameY="-7" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Pre Attack0000" x="2781" y="2050" width="587" height="701" frameX="-2" frameY="0" frameWidth="599" frameHeight="701"/>
+	<SubTexture name="Fukuanana Pre Attack0001" x="2781" y="2050" width="587" height="701" frameX="-2" frameY="0" frameWidth="599" frameHeight="701"/>
+	<SubTexture name="Fukuanana Pre Attack0002" x="3368" y="2050" width="592" height="694" frameX="0" frameY="-7" frameWidth="599" frameHeight="701"/>
+	<SubTexture name="Fukuanana Pre Attack0003" x="3368" y="2050" width="592" height="694" frameX="0" frameY="-7" frameWidth="599" frameHeight="701"/>
+	<SubTexture name="Fukuanana Pre Attack0004" x="3960" y="2050" width="597" height="701" frameX="-2" frameY="0" frameWidth="599" frameHeight="701"/>
+	<SubTexture name="Fukuanana Pre Attack0005" x="3960" y="2050" width="597" height="701" frameX="-2" frameY="0" frameWidth="599" frameHeight="701"/>
+	<SubTexture name="Fukuanana Right0000" x="7319" y="1364" width="646" height="680" frameX="0" frameY="0" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Right0001" x="7319" y="1364" width="646" height="680" frameX="0" frameY="0" frameWidth="647" frameHeight="682"/>
+	<SubTexture name="Fukuanana Right0002" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0003" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0004" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0005" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0006" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0007" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0008" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0009" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0010" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0011" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0012" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0013" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0014" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0015" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0016" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0017" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0018" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0019" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0020" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0021" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0022" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0023" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0024" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0025" x="5177" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Right0026" x="4557" y="2050" width="620" height="680" frameX="-10" frameY="0" frameWidth="646" frameHeight="680"/>
+	<SubTexture name="Fukuanana Up0000" x="5797" y="2050" width="526" height="717"/>
+	<SubTexture name="Fukuanana Up0001" x="5797" y="2050" width="526" height="717"/>
+	<SubTexture name="Fukuanana Up0002" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0003" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0004" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0005" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0006" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0007" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0008" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0009" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0010" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0011" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0012" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+	<SubTexture name="Fukuanana Up0013" x="6323" y="2050" width="502" height="695" frameX="-16" frameY="-21" frameWidth="526" frameHeight="717"/>
+</TextureAtlas>

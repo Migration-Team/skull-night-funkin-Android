@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bgFishAndPirate.png">
+<SubTexture name="bgFishAndPirate0000" x="0" y="1212" width="931" height="589" frameX="-4" frameY="-45" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0001" x="0" y="1212" width="931" height="589" frameX="-4" frameY="-45" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0002" x="0" y="613" width="925" height="599" frameX="-10" frameY="-35" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0003" x="0" y="613" width="925" height="599" frameX="-10" frameY="-35" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0004" x="925" y="0" width="926" height="609" frameX="-14" frameY="-25" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0005" x="925" y="0" width="926" height="609" frameX="-14" frameY="-25" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0006" x="0" y="0" width="925" height="613" frameX="-19" frameY="-20" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0007" x="0" y="0" width="925" height="613" frameX="-19" frameY="-20" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0008" x="0" y="0" width="925" height="613" frameX="-19" frameY="-20" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0009" x="0" y="0" width="925" height="613" frameX="-19" frameY="-20" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0010" x="0" y="0" width="925" height="613" frameX="-19" frameY="-20" frameWidth="974" frameHeight="665" />
+<SubTexture name="bgFishAndPirate0011" x="0" y="0" width="925" height="613" frameX="-19" frameY="-20" frameWidth="974" frameHeight="665" />
+</TextureAtlas>
