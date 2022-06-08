@@ -180,6 +180,9 @@ class PlayState extends MusicBeatState
 	public var botplaySine:Float = 0;
 	public var botplayTxt:FlxText;
 
+	var bfCostumes:Array<String>;
+	var gfCostumes:Array<String>;
+
 	public var iconP1:HealthIcon;
 	public var iconP2:HealthIcon;
 	public var camHUD:FlxCamera;
@@ -295,12 +298,22 @@ class PlayState extends MusicBeatState
 		if (FlxG.sound.music != null)
 			FlxG.sound.music.stop();
 
+		var tempMap:Map<String, Bool> = new Map<String, Bool>();
+
 		// Gameplay settings
 		healthGain = ClientPrefs.getGameplaySetting('healthgain', 1);
 		healthLoss = ClientPrefs.getGameplaySetting('healthloss', 1);
 		instakillOnMiss = ClientPrefs.getGameplaySetting('instakill', false);
 		practiceMode = ClientPrefs.getGameplaySetting('practice', false);
 		cpuControlled = ClientPrefs.getGameplaySetting('botplay', false);
+		bfCostumes = CoolUtil.coolTextFile(Paths.txt('bfCostumeList'));
+		for (i in 0...bfCostumes.length) {
+			tempMap.set(bfCostumes[i], true);
+		}
+		gfCostumes = CoolUtil.coolTextFile(Paths.txt('gfCostumeList'));
+		for (i in 0...gfCostumes.length) {
+			tempMap.set(gfCostumes[i], true);
+		}
 
 		// var gameCam:FlxCamera = FlxG.camera;
 		camGame = new FlxCamera();
@@ -813,19 +826,22 @@ class PlayState extends MusicBeatState
 
 		if (!stageData.hide_girlfriend)
 		{
-			gf = new Character(0, 0, gfVersion);
+			gf = new Character(0, 0, isStoryMode ? gfVersion : gfCostumes[ClientPrefs.gfCurrentSkin]);
 			startCharacterPos(gf);
 			gf.scrollFactor.set(0.95, 0.95);
 			gfGroup.add(gf);
 			startCharacterLua(gf.curCharacter);
 		}
 
-		dad = new Character(0, 0, SONG.player2);
+		if (isStoryMode)
+			dad = new Character(0, 0, SONG.player2);
+		else
+			dad = new Character(0, 0, Paths.formatToSongPath(SONG.song) == 'tutorial' && SONG.player2 == 'gf' ? gfCostumes[ClientPrefs.gfCurrentSkin] : SONG.player2);
 		startCharacterPos(dad, true);
 		dadGroup.add(dad);
 		startCharacterLua(dad.curCharacter);
 		
-		boyfriend = new Boyfriend(0, 0, SONG.player1);
+		boyfriend = new Boyfriend(0, 0, isStoryMode ? SONG.player1 : bfCostumes[ClientPrefs.bfCurrentSkin]);
 		startCharacterPos(boyfriend);
 		boyfriendGroup.add(boyfriend);
 		startCharacterLua(boyfriend.curCharacter);
@@ -1502,6 +1518,7 @@ class PlayState extends MusicBeatState
 
 	var startTimer:FlxTimer;
 	var finishTimer:FlxTimer = null;
+	var selectedSomethin = false;
 
 	// 
 	var curCharacter:Int;
@@ -1513,12 +1530,9 @@ class PlayState extends MusicBeatState
 
 	var bg:FlxSprite;
 
-	var bfCostumes:Array<String>;
-	var bfSkin:FlxSprite;
+	var bfSkin:Character;
 	var bfTxt:FlxText;
-
-	var gfCostumes:Array<String>;
-	var gfSkin:FlxSprite;
+	var gfSkin:Character;
 	var gfTxt:FlxText;
 
 	var iconBFBG:FlxSprite;
@@ -1528,9 +1542,10 @@ class PlayState extends MusicBeatState
 
 	public function skinSelector():Void
 	{
-		var tempMap:Map<String, Bool> = new Map<String, Bool>();
+		curBFSkin = ClientPrefs.bfCurrentSkin;
+		curGFSkin = ClientPrefs.gfCurrentSkin;
 
-		skinSelectMusic = new FlxSound().loadEmbedded(Paths.music('North Wind'), true, true);
+		skinSelectMusic = new FlxSound().loadEmbedded(Paths.music('Pick of the Litter'), true, true);
 		skinSelectMusic.volume = 1;
 		skinSelectMusic.play(false, 0);
 		FlxG.sound.list.add(skinSelectMusic);
@@ -1553,17 +1568,13 @@ class PlayState extends MusicBeatState
 		add(skinSelectorTxt);
 		FlxTween.tween(skinSelectorTxt, {y: skinSelectorTxt.y + 128, alpha: 1}, 0.8, {ease: FlxEase.quadOut});
 
-		bfCostumes = CoolUtil.coolTextFile(Paths.txt('bfCostumeList'));
-		for (i in 0...bfCostumes.length) {
-			tempMap.set(bfCostumes[i], true);
-		}
-
-		bfSkin = new Character((FlxG.width * 0.5) - 480, (FlxG.height * 0.5) - 224, bfCostumes[curBFSkin]);
+		bfSkin = new Character((FlxG.width * 0.5) - 480, (FlxG.height * 0.5) - 320, bfCostumes[curBFSkin]);
 		bfSkin.setGraphicSize(Std.int(bfSkin.width * 0.75));
 		bfSkin.scrollFactor.set();
 		bfSkin.cameras = [camHUD];
 		bfSkin.updateHitbox();
 		add(bfSkin);
+		FlxTween.tween(bfSkin, {y: bfSkin.y + 96, alpha: 1}, 0.8, {ease: FlxEase.quadOut});
 
 		bfTxt = new FlxText(-320, (FlxG.height * 0.5) + 192, FlxG.width, bfCostumes[curBFSkin], 48);
 		bfTxt.setFormat(Paths.font("vcr.ttf"), 48, FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]), CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -1574,17 +1585,13 @@ class PlayState extends MusicBeatState
 		add(bfTxt);
 		FlxTween.tween(bfTxt, {y: bfTxt.y - 64, alpha: 1}, 0.8, {ease: FlxEase.quadOut});
 
-		gfCostumes = CoolUtil.coolTextFile(Paths.txt('gfCostumeList'));
-		for (i in 0...gfCostumes.length) {
-			tempMap.set(gfCostumes[i], true);
-		}
-
-		gfSkin = new Character((FlxG.width * 0.5) + 64, (FlxG.height * 0.5) - 240, gfCostumes[curGFSkin]);
+		gfSkin = new Character((FlxG.width * 0.5) + 64, (FlxG.height * 0.5) - 336, gfCostumes[curGFSkin]);
 		gfSkin.setGraphicSize(Std.int(gfSkin.width * 0.75));
 		gfSkin.scrollFactor.set();
 		gfSkin.cameras = [camHUD];
 		gfSkin.updateHitbox();
 		add(gfSkin);
+		FlxTween.tween(gfSkin, {y: gfSkin.y + 96, alpha: 1}, 0.8, {ease: FlxEase.quadOut});
 
 		gfTxt = new FlxText(320, (FlxG.height * 0.5) + 160, FlxG.width, gfCostumes[curGFSkin], 48);
 		gfTxt.setFormat(Paths.font("vcr.ttf"), 48, FlxColor.fromRGB(gf.healthColorArray[0], gf.healthColorArray[1], gf.healthColorArray[2]), CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -1657,85 +1664,106 @@ class PlayState extends MusicBeatState
 
 	public function skinSelectorUpdate():Void
 	{
-		if (controls.UI_DOWN_P) {
-			changeSkin(1);
-			FlxG.sound.play(Paths.sound('scrollMenu'));
-		} else if (controls.UI_UP_P) {
-			changeSkin(-1);
-			FlxG.sound.play(Paths.sound('scrollMenu'));
-		}
-
-		if (controls.UI_RIGHT_P) {
-			changeCharacter(1);
-			FlxG.sound.play(Paths.sound('scrollMenu'));
-		} else if (controls.UI_LEFT_P) {
-			changeCharacter(-1);
-			FlxG.sound.play(Paths.sound('scrollMenu'));
-		}
-
-		if (controls.ACCEPT) {
-			skinSelectMusic.destroy();
-			inSkinSelector = false;
-			startCountdown();
-
-			remove(bg);
-			remove(skinSelectorTxt);
-			remove(bfSkin);
-			remove(bfSkin);
-			remove(bfTxt);
-			remove(gfSkin);
-			remove(gfTxt);
-			remove(iconBFBG);
-			remove(iconBF);
-			remove(iconGFBG);
-			remove(iconGF);
-
-			if (Paths.formatToSongPath(SONG.song) == 'tutorial') {
-				if(!dadMap.exists(gfCostumes[curGFSkin])) {
-					addCharacterToList(gfCostumes[curGFSkin], 1);
-				}
-
-				var lastAlpha:Float = dad.alpha;
-				dad.alpha = 0.00001;
-				dad = dadMap.get(gfCostumes[curGFSkin]);
-				dad.alpha = lastAlpha;
-				iconP2.changeIcon(dad.healthIcon);
-				setOnLuas('dadName', dad.curCharacter);
-			} else {
-				if(!gfMap.exists(gfCostumes[curGFSkin])) {
-					addCharacterToList(gfCostumes[curGFSkin], 2);
-				}
-
-				var lastAlpha:Float = gf.alpha;
-				gf.alpha = 0.00001;
-				gf = gfMap.get(gfCostumes[curGFSkin]);
-				gf.alpha = lastAlpha;
-				setOnLuas('gfName', gf.curCharacter);
+		if (!selectedSomethin) {
+			if (controls.UI_DOWN_P) {
+				changeSkin(1);
+				FlxG.sound.play(Paths.sound('scrollMenu'));
+			} else if (controls.UI_UP_P) {
+				changeSkin(-1);
+				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
 
-			if(!boyfriendMap.exists(bfCostumes[curBFSkin])) {
-				addCharacterToList(bfCostumes[curBFSkin], 0);
+			if (controls.UI_RIGHT_P) {
+				changeCharacter(1);
+				FlxG.sound.play(Paths.sound('scrollMenu'));
+			} else if (controls.UI_LEFT_P) {
+				changeCharacter(-1);
+				FlxG.sound.play(Paths.sound('scrollMenu'));
 			}
 
-			var lastAlpha:Float = boyfriend.alpha;
-			boyfriend.alpha = 0.00001;
-			boyfriend = boyfriendMap.get(bfCostumes[curBFSkin]);
-			boyfriend.alpha = lastAlpha;
-			iconP1.changeIcon(boyfriend.healthIcon);
-			setOnLuas('boyfriendName', boyfriend.curCharacter);
+			if (controls.ACCEPT) {
+				selectedSomethin = true;
+				FlxG.sound.play(Paths.sound('confirmMenu'));
+				bfSkin.playAnim('hey', true);
+				gfSkin.playAnim('cheer', true);
 
-			reloadHealthBarColors();
+				ClientPrefs.bfCurrentSkin = curBFSkin;
+				ClientPrefs.gfCurrentSkin = curGFSkin;
+				ClientPrefs.saveSettings();
 
-			//selectWeek();
+				new FlxTimer().start(1.5, function(tmr:FlxTimer)
+				{
+					FlxTween.tween(bg, {alpha: 0}, 0.75, {ease: FlxEase.circOut, startDelay: 0.5, onComplete: function(twn:FlxTween){ remove(bg); }});
+					FlxTween.tween(skinSelectorTxt, {y: skinSelectorTxt.y - 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(skinSelectorTxt); }});
+					FlxTween.tween(bfSkin, {y: bfSkin.y + 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(bfSkin); }});
+					FlxTween.tween(bfTxt, {y: bfTxt.y - 192, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(bfTxt); }});
+					FlxTween.tween(gfSkin, {y: gfSkin.y + 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(gfSkin); }});
+					FlxTween.tween(gfTxt, {y: gfTxt.y - 160, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(gfTxt); }});
+
+					if (!ClientPrefs.lowQuality)
+					{
+						FlxTween.tween(iconBFBG, {x: -100, y: -100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconBFBG); }});
+						FlxTween.tween(iconBF, {x: iconBF.x - 100, y: iconBF.y - 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconBF); }});
+						FlxTween.tween(iconGFBG, {x: -100, y: -100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconGFBG); }});
+						FlxTween.tween(iconGF, {x: iconGF.x + 100, y: iconGF.y + 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconGF); }});
+					}
+				});
+
+				new FlxTimer().start(2.25, function(tmr:FlxTimer)
+				{
+					skinSelectMusic.destroy();
+					inSkinSelector = false;
+					startCountdown();
+
+					if (Paths.formatToSongPath(SONG.song) == 'tutorial') {
+						if(!dadMap.exists(gfCostumes[curGFSkin])) {
+							addCharacterToList(gfCostumes[curGFSkin], 1);
+						}
+
+						var lastAlpha:Float = dad.alpha;
+						dad.alpha = 0.00001;
+						dad = dadMap.get(gfCostumes[curGFSkin]);
+						dad.alpha = lastAlpha;
+						iconP2.changeIcon(dad.healthIcon);
+						setOnLuas('dadName', dad.curCharacter);
+					} else {
+						if(!gfMap.exists(gfCostumes[curGFSkin])) {
+							addCharacterToList(gfCostumes[curGFSkin], 2);
+						}
+
+						var lastAlpha:Float = gf.alpha;
+						gf.alpha = 0.00001;
+						gf = gfMap.get(gfCostumes[curGFSkin]);
+						gf.alpha = lastAlpha;
+						setOnLuas('gfName', gf.curCharacter);
+					}
+
+					if(!boyfriendMap.exists(bfCostumes[curBFSkin])) {
+						addCharacterToList(bfCostumes[curBFSkin], 0);
+					}
+
+					var lastAlpha:Float = boyfriend.alpha;
+					boyfriend.alpha = 0.00001;
+					boyfriend = boyfriendMap.get(bfCostumes[curBFSkin]);
+					boyfriend.alpha = lastAlpha;
+					iconP1.changeIcon(boyfriend.healthIcon);
+					setOnLuas('boyfriendName', boyfriend.curCharacter);
+
+					reloadHealthBarColors();
+				});
+			}
 		}
 	}
 
 	function changeSkin(change:Int = 0):Void
 	{
-		if (curCharacter == 0)
+		switch (curCharacter) {
+		case 0:
 			curBFSkin += change;
-		else
+
+		case 1:
 			curGFSkin += change;
+		}
 
 		if (curBFSkin < 0)
 			curBFSkin = bfCostumes.length-1;
@@ -1747,7 +1775,8 @@ class PlayState extends MusicBeatState
 		if (curGFSkin >= gfCostumes.length)
 			curGFSkin = 0;
 
-		if (curCharacter == 0) {
+		switch (curCharacter) {
+		case 0:
 			remove(bfSkin);
 			bfSkin = new Character((FlxG.width * 0.5) - 480, (FlxG.height * 0.5) - 224, bfCostumes[curBFSkin]);
 			bfSkin.setGraphicSize(Std.int(bfSkin.width * 0.75));
@@ -1760,7 +1789,8 @@ class PlayState extends MusicBeatState
 			bfTxt.text = bfCostumes[curBFSkin];
 			bfTxt.y = (FlxG.height * 0.5) + 112;
 			FlxTween.tween(bfTxt, {y: bfTxt.y + 16, alpha: 1}, 0.075);
-		} else {
+
+		case 1:
 			remove(gfSkin);
 			gfSkin = new Character((FlxG.width * 0.5) + 64, (FlxG.height * 0.5) - 232, gfCostumes[curGFSkin]);
 			gfSkin.setGraphicSize(Std.int(gfSkin.width * 0.75));

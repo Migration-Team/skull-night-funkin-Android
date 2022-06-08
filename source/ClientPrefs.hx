@@ -30,6 +30,8 @@ class ClientPrefs {
 	public static var controllerMode:Bool = false;
 	public static var hitsoundVolume:Float = 0;
 	public static var pauseMusic:String = 'Tea Time';
+	public static var bfCurrentSkin:Int = 0;
+	public static var gfCurrentSkin:Int = 0;
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -197,7 +199,8 @@ class ClientPrefs {
 		FlxG.save.data.controllerMode = controllerMode;
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
 		FlxG.save.data.pauseMusic = pauseMusic;
-	
+		FlxG.save.data.bfCurrentSkin = bfCurrentSkin;
+		FlxG.save.data.gfCurrentSkin = gfCurrentSkin;
 		FlxG.save.flush();
 
 		var save:FlxSave = new FlxSave();
@@ -302,6 +305,12 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.pauseMusic != null) {
 			pauseMusic = FlxG.save.data.pauseMusic;
+		}
+		if(FlxG.save.data.bfCurrentSkin != null) {
+			bfCurrentSkin = FlxG.save.data.bfCurrentSkin;
+		}
+		if(FlxG.save.data.gfCurrentSkin != null) {
+			gfCurrentSkin = FlxG.save.data.gfCurrentSkin;
 		}
 		if(FlxG.save.data.gameplaySettings != null)
 		{
