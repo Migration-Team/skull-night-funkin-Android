@@ -78,9 +78,9 @@ function onUpdate()
     
 end
 
---function onGameOver()
+function onGameOver()
 	-- You died! Called every single frame your health is lower (or equal to) zero
-	-- return Function_Stop if you want to stop the player from going into the game over screen
---    playSound('peacock insult', 1)
---    return Function_Continue;
---end
+	--return Function_Stop if you want to stop the player from going into the game over screen
+    playSound('operate', 1)
+    return Function_Continue;
+end

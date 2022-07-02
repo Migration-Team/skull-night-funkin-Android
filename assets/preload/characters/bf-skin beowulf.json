@@ -1,176 +1,176 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				2,
 				18
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf Right",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Bf Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-12,
 				-29
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf Down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Bf Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-38,
 				125
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Bf Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				35,
 				-2
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf Left",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Bf Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-15,
 				-1
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf miss right",
-			"indices": []
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Bf miss right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-15,
 				-32
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf miss Down",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Bf miss Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-29,
 				74
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf miss Up",
-			"indices": []
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Bf miss Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				11,
 				-4
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf miss Left",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Bf miss Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				23,
 				31
 			],
-			"anim": "hey",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf hey",
-			"indices": []
+			"anim": "hey",
+			"indices": [],
+			"name": "Bf hey"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				22,
 				159
 			],
-			"anim": "hurt",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf Hit",
-			"indices": []
+			"anim": "hurt",
+			"indices": [],
+			"name": "Bf Hit"
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-10,
 				0
 			],
-			"anim": "scared",
+			"loop": true,
 			"fps": 24,
-			"name": "Bf Scared",
-			"indices": []
+			"anim": "scared",
+			"indices": [],
+			"name": "Bf Scared"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				4
 			],
-			"anim": "dodge",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf Dodge",
-			"indices": []
+			"anim": "dodge",
+			"indices": [],
+			"name": "Bf Dodge"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				409,
 				149
 			],
-			"anim": "attack",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf funi mic",
-			"indices": []
+			"anim": "attack",
+			"indices": [],
+			"name": "Bf funi mic"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-31,
 				-81
 			],
-			"anim": "pre-attack",
+			"loop": false,
 			"fps": 24,
-			"name": "Bf PreFunMic",
-			"indices": []
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "Bf PreFunMic"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-8,
 				2
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "Bf Idle"
+			"fps": 24,
+			"name": "Bf Idle",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/Beofriend assets",
 	"position": [
 		-20,
-		0
+		270
 	],
 	"healthicon": "skin beowulf",
 	"flip_x": true,

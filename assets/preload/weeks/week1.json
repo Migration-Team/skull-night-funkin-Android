@@ -1,6 +1,6 @@
 {
 	"storyName": "Ladies and gentleman, it's showtime!",
-	"difficulties": "Easy, Normal, Hard",
+	"difficulties": "Easy, Normal, Hard, Gehenna",
 	"hideFreeplay": false,
 	"weekBackground": "01encore",
 	"weekBefore": "tutorial",
@@ -9,7 +9,7 @@
 		113,
 		253
 	],
-	"startUnlocked": true,
+	"startUnlocked": false,
 	"songs": [
 		[
 			"hair raising",

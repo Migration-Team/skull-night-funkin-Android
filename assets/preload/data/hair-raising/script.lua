@@ -1,13 +1,14 @@
 -- A REALLY REALLY BIG THANKS TO WASHO FOR MAKING A CAMERA FOLLOWS CHAR SCRIP, tqm washo se que hablas español asi que besitos en la cola
 -- Washo GB page: https://gamebanana.com/members/1971029
-local xx = 500;
-local yy = 200;
-local xx2 = 850;
-local yy2 = 150;
-local ofs = 60;
-local followchars = true;
-local del = 0;
-local del2 = 0;
+local xx = 500
+local yy = 200
+local xx2 = 850
+local yy2 = 150
+local ofs = 60
+local followchars = true
+local del = 0
+local del2 = 0
+local random = 0
 
 function onCreatePost()
     setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'rip bozo'); --put in mods/sounds/
@@ -78,9 +79,20 @@ function onUpdate()
     
 end
 
+function onStep ()
+    random = random +1
+    if random == 2 then
+        random = 0
+    end
+end
+
 function onGameOver()
 	-- You died! Called every single frame your health is lower (or equal to) zero
 	--return Function_Stop if you want to stop the player from going into the game over screen
-    playSound('filia retry', 1)
+    if random == 0 then 
+        playSound('filia retry', 1)
+    elseif random > 0 then
+        playSound('samson_insult', 1)
+    end
     return Function_Continue;
 end
