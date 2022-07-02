@@ -7,6 +7,7 @@ local bleed2 = 0
 local bleed3 = 0
 local bleed4 = 0
 local bleed5 = 0
+local drain = 0.00084
 
 function onCreate()
 	--Iterate over all notes
@@ -33,7 +34,7 @@ end
 function opponentNoteHit(id, direction, noteType, isSustainNote)
 	health = getProperty('health')
 	if noteType == 'bomb_Note' then
-		setProperty('health', health-0.065);
+		setProperty('health', health-0.00084);
 	end
 end
 
@@ -65,7 +66,7 @@ function onUpdate()
     --primer sangrado
 	if bleed1 > 0 then
 		bleed1 = bleed1 + 1
-		setProperty('health', health-0.00084)  --mientras bleed suba, el hp baja
+		setProperty('health', health-drain)  --mientras bleed suba, el hp baja
 	end
 	if bleed1 >= 600 then
 		activador = activador - 1 --manda señal al activador de que el sangrado terminó tras aprox 10 segundos, no se exactamente cuantos porque no hice el cálculo
@@ -74,7 +75,7 @@ function onUpdate()
     --segundo sangrado
 	if bleed2 > 0 then
 		bleed2 = bleed2 + 1
-		setProperty('health', health-0.00168)
+		setProperty('health', health-drain*2)
 	end
 	if bleed2 >= 600 then
 		activador = activador - 1
@@ -83,7 +84,7 @@ function onUpdate()
 	--tercer sangrado
 	if bleed3 > 0 then
 		bleed3 = bleed3 + 1
-		setProperty('health', health-0.00252)
+		setProperty('health', health-drain*3)
 	end
 	if bleed3 >= 600 then
 		activador = activador - 1
@@ -92,7 +93,7 @@ function onUpdate()
 	--cuarto sangrado
 	if bleed4 > 0 then
 		bleed4 = bleed4 + 1
-		setProperty('health', health-0.00336)
+		setProperty('health', health-drain*4)
 	end
 	if bleed4 >= 600 then
 		activador = activador - 1
@@ -101,16 +102,19 @@ function onUpdate()
 	--quinto sangrado
 	if bleed5 > 0 then
 		bleed5 = bleed5 + 1
-		setProperty('health', health-0.00420)
+		setProperty('health', health-drain*5)
 	end
 	if bleed5 >= 600 then
 		activador = activador - 1
 		bleed5 = 0
 	end
 	
-	if activador > 0 then
-	    addLuaSprite('bleed', true)
-	elseif activador == 0 then
-		removeLuaSprite('bleed')
+	--para evitar que el drenado de salud te mate xd
+	if health <= 0.05 then
+		drain = 0
+	elseif health > 0.05 then
+		drain = 0.00084
 	end
+
+
 end

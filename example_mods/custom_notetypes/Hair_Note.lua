@@ -1,5 +1,7 @@
 -- exclusive note for the Filia/Fukua levels
 
+local drenado = 0.065
+
 function onCreate()
 	--Iterate over all notes
 	for i = 0, getProperty('unspawnNotes.length')-1 do
@@ -26,7 +28,7 @@ end
 function opponentNoteHit(id, direction, noteType, isSustainNote)
 	health = getProperty('health')
 	if noteType == 'Hair_Note' then
-		setProperty('health', health-0.065)
+		setProperty('health', health - drenado)
 		triggerEvent('Screen Shake', '0.2, 0.01', '0.2, 0.01')
 	end
 end
@@ -34,5 +36,14 @@ end
 function goodNoteHit(id, direction, noteType, isSustainNote) --add note type stuff here
 	if noteType == 'Hair_Note' then
 		characterPlayAnim('boyfriend', 'hurt', true)
+	end
+end
+
+-- para evitar que el drenado de salud te mate xd
+function onUpdate()
+	if health < 0.065 then
+		drenado = 0
+	elseif health >= 0.065 then
+		drenado = 0.065
 	end
 end

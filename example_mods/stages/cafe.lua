@@ -1,7 +1,26 @@
+local weak = 0
+
 function onCreate()
 	-- background shit
-	makeLuaSprite('cafeback', 'madmans/cafeback', -600, -650);
-	setScrollFactor('cafeback', 0.9, 0.9);
+	makeLuaSprite('cafeback', 'madmans/cafeback', -600, -650)
+	setScrollFactor('cafeback', 0.9, 0.9)
+
+	makeLuaSprite ('black', 'effects/Black screen', -350,-250)
+	setScrollFactor('black', 0, 0)
+	scaleObject('black', 1.5, 2)
+
+	makeLuaSprite ('white', 'effects/White screen', -350,-250)
+	setScrollFactor('white', 0, 0)
+	scaleObject('white', 1.5, 2)
+
+
+	makeLuaSprite ('light', 'effects/spotlight', -100,0)
+	setScrollFactor('light', 0, 0)
+	scaleObject('light', 1.1, 1)
+
+
+	--setProperty('black.alpha', 0)
+
 	
 	-- sprites that only load if Low Quality is turned off
 	if not lowQuality then
@@ -24,6 +43,15 @@ function onCreate()
 	addLuaSprite('bgJaky', false)
 	addLuaSprite('bgPokemons', false)
 	addLuaSprite('bgPublicCafe', true)
+	addLuaSprite('light', true)
+	addLuaSprite('black', true)
+end
+
+function onUpdate()
+	setProperty('white.alpha', getProperty('white.alpha') - 0.02)
+	if weak > 0 then
+		setProperty('black.alpha', getProperty('black.alpha') + 0.02)
+	end
 end
 
 function onStep()		
@@ -31,4 +59,22 @@ function onStep()
 	objectPlayAnimation('bgJaky', 'sentaodepana', false)
 	objectPlayAnimation('bgPokemons', 'bopping', false)
 	objectPlayAnimation('bgPublicCafe', 'bopping', false)
+end
+
+function onStepHit()
+	if curStep == 47 then
+		setProperty('black.alpha', 0)
+	end
+	if curStep == 304 then
+		removeLuaSprite('light')
+		addLuaSprite('white', true)
+		setProperty('white.alpha', 1)
+	end
+	if curStep == 992 then
+		weak = 1
+	end
+	if curStep == 1024 then
+		removeLuaSprite('black')
+		setProperty('white.alpha', 1)
+	end
 end
