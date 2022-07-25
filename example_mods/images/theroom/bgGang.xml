@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bgGang.png">
+<SubTexture name="bgGang idle0000" x="0" y="2038" width="2015" height="1005" frameX="-142" frameY="-54" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0001" x="0" y="2038" width="2015" height="1005" frameX="-142" frameY="-54" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0002" x="0" y="1025" width="2009" height="1013" frameX="-143" frameY="-46" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0003" x="0" y="1025" width="2009" height="1013" frameX="-143" frameY="-46" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0004" x="1991" y="0" width="2002" height="1020" frameX="-145" frameY="-39" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0005" x="1991" y="0" width="2002" height="1020" frameX="-145" frameY="-39" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0006" x="0" y="0" width="1991" height="1025" frameX="-149" frameY="-34" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0007" x="0" y="0" width="1991" height="1025" frameX="-149" frameY="-34" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0008" x="0" y="0" width="1991" height="1025" frameX="-149" frameY="-34" frameWidth="2200" frameHeight="1100" />
+<SubTexture name="bgGang idle0009" x="0" y="0" width="1991" height="1025" frameX="-149" frameY="-34" frameWidth="2200" frameHeight="1100" />
+</TextureAtlas>
