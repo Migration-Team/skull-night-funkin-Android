@@ -1,0 +1,137 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "hey boyfriend",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "yep",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "have you ever hear about the skullheart?",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "no",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "it's an artifact that concedes a woman's wish",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "wow",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "cool right?",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "yeah",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "mad",
+			"text": "...!",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.085
+		},
+		{
+			"expression": "talk",
+			"text": "and you want it?",
+			"boxState": "normal",
+			"portrait": "bfsnf",
+			"speed": 0.05
+		},
+		{
+			"expression": "happy",
+			"text": "yes",
+			"boxState": "normal",
+			"portrait": "gfsnf",
+			"speed": 0.05
+		}
+	]
+}
