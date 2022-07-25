@@ -1,0 +1,2 @@
+TURN ON specific events
+for now it only works in 'hellcat'
