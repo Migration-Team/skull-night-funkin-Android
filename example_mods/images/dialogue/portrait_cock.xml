@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="portrait_cock.png">
+<SubTexture name="happy0000" x="743" y="0" width="747" height="935" frameX="0" frameY="-65" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="evil0000" x="696" y="973" width="889" height="886" frameX="0" frameY="-114" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="angry0000" x="1490" y="0" width="853" height="935" frameX="0" frameY="-65" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="hurt0000" x="0" y="0" width="743" height="973" frameX="0" frameY="-27" frameWidth="1000" frameHeight="1000" />
+<SubTexture name="relief0000" x="0" y="973" width="696" height="920" frameX="0" frameY="-80" frameWidth="1000" frameHeight="1000" />
+</TextureAtlas>

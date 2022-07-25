@@ -1,0 +1,76 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		-150,
+		-310
+	],
+	"scale": 0.85,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_offsets": [
+				-1,
+				-12
+			],
+			"loop_name": "happy",
+			"idle_name": "happy"
+		},
+		{
+			"loop_name": "angry",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"idle_name": "angry",
+			"anim": "angry",
+			"loop_offsets": [
+				0,
+				-10
+			]
+		},
+		{
+			"loop_name": "evil",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"idle_name": "evil",
+			"anim": "evil",
+			"loop_offsets": [
+				0,
+				-10
+			]
+		},
+		{
+			"loop_name": "hurt",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"idle_name": "hurt",
+			"anim": "hurt",
+			"loop_offsets": [
+				0,
+				-10
+			]
+		},
+		{
+			"loop_name": "relief",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"idle_name": "relief",
+			"anim": "relief",
+			"loop_offsets": [
+				0,
+				-10
+			]
+		}
+	],
+	"image": "portrait_cock"
+}
