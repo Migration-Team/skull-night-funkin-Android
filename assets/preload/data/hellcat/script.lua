@@ -5,10 +5,10 @@ function onCreate()
 end
 
 function onEvent(name)
-    if name == 'industrial society and its future' then
+    if name == 'ON' then
         ofs = 0
     end
-    if name == 'original name' then
+    if name == 'OFF' then
         ofs = 40
     end
 end
