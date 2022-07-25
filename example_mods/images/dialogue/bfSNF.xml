@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="bfSNF.png">
-<SubTexture name="normal0000" x="440" y="499" width="459" height="496" frameX="-25" frameY="-4" frameWidth="500" frameHeight="500" />
-<SubTexture name="sweeting0000" x="0" y="0" width="465" height="499" frameX="-35" frameY="-1" frameWidth="500" frameHeight="500" />
-<SubTexture name="eeem0000" x="465" y="0" width="453" height="499" frameX="-37" frameY="-1" frameWidth="500" frameHeight="500" />
-<SubTexture name="pog0000" x="899" y="499" width="452" height="491" frameX="-35" frameY="-9" frameWidth="500" frameHeight="500" />
-<SubTexture name="hey0000" x="918" y="0" width="444" height="498" frameX="-4" frameY="0" frameWidth="500" frameHeight="500" />
-<SubTexture name="super pog0000" x="0" y="499" width="440" height="498" frameX="0" frameY="-2" frameWidth="500" frameHeight="500" />
-</TextureAtlas>
