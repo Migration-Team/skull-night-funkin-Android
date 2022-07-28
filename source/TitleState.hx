@@ -73,6 +73,9 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+		Paths.setCurrentLevel('shared');
+		trace('Setting asset folder to ' + 'shared');
+
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 
