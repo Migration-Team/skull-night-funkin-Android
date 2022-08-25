@@ -1019,38 +1019,36 @@ class PlayState extends MusicBeatState
 		moveCameraSection(0);
 
 		healthBarBG = new AttachedSprite('healthBar');
-		healthBarBG.y = FlxG.height * 0.89;
+		healthBarBG.y = FlxG.height * 0.75;
 		healthBarBG.screenCenter(X);
 		healthBarBG.scrollFactor.set();
 		healthBarBG.visible = !ClientPrefs.hideHud;
 		healthBarBG.xAdd = -4;
 		healthBarBG.yAdd = -4;
-		add(healthBarBG);
 		if(ClientPrefs.downScroll) healthBarBG.y = 0.11 * FlxG.height;
 
-		healthBar = new FlxBar(healthBarBG.x + 4, healthBarBG.y + 4, RIGHT_TO_LEFT, Std.int(healthBarBG.width - 8), Std.int(healthBarBG.height - 8), this,
-			'health', 0, 2);
+		healthBar = new FlxBar(healthBarBG.x + 138, healthBarBG.y + 41, RIGHT_TO_LEFT, 364, 20, this, 'health', 0, 2);
 		healthBar.scrollFactor.set();
 		// healthBar
 		healthBar.visible = !ClientPrefs.hideHud;
 		healthBar.alpha = ClientPrefs.healthBarAlpha;
 		add(healthBar);
-		healthBarBG.sprTracker = healthBar;
+		add(healthBarBG);
 
 		iconP1 = new HealthIcon(boyfriend.healthIcon, true);
-		iconP1.y = healthBar.y - 75;
+		iconP1.y = healthBar.y - 40;
 		iconP1.visible = !ClientPrefs.hideHud;
 		iconP1.alpha = ClientPrefs.healthBarAlpha;
 		add(iconP1);
 
 		iconP2 = new HealthIcon(dad.healthIcon, false);
-		iconP2.y = healthBar.y - 75;
+		iconP2.y = healthBar.y - 40;
 		iconP2.visible = !ClientPrefs.hideHud;
 		iconP2.alpha = ClientPrefs.healthBarAlpha;
 		add(iconP2);
 		reloadHealthBarColors();
 
-		scoreTxt = new FlxText(0, healthBarBG.y - 40, FlxG.width, "", 24);
+		scoreTxt = new FlxText(0, healthBarBG.y - 3, FlxG.width, "", 24);
 		scoreTxt.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
 		scoreTxt.borderSize = 1.25;
@@ -1685,7 +1683,10 @@ class PlayState extends MusicBeatState
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('confirmMenu'));
 				bfSkin.playAnim('hey', true);
+				bfSkin.updateHitbox();
+
 				gfSkin.playAnim('cheer', true);
+				gfSkin.updateHitbox();
 
 				ClientPrefs.bfCurrentSkin = curBFSkin;
 				ClientPrefs.gfCurrentSkin = curGFSkin;
@@ -1693,19 +1694,19 @@ class PlayState extends MusicBeatState
 
 				new FlxTimer().start(1.5, function(tmr:FlxTimer)
 				{
-					FlxTween.tween(bg, {alpha: 0}, 0.75, {ease: FlxEase.circOut, startDelay: 0.5, onComplete: function(twn:FlxTween){ remove(bg); }});
-					FlxTween.tween(skinSelectorTxt, {y: skinSelectorTxt.y - 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(skinSelectorTxt); }});
-					FlxTween.tween(bfSkin, {y: bfSkin.y + 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(bfSkin); }});
-					FlxTween.tween(bfTxt, {y: bfTxt.y - 192, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(bfTxt); }});
-					FlxTween.tween(gfSkin, {y: gfSkin.y + 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(gfSkin); }});
-					FlxTween.tween(gfTxt, {y: gfTxt.y - 160, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(gfTxt); }});
+					FlxTween.tween(bg, {alpha: 0}, 0.75, {ease: FlxEase.circOut, startDelay: 0.5, onComplete: function(twn:FlxTween){ bg.destroy(); }});
+					FlxTween.tween(skinSelectorTxt, {y: skinSelectorTxt.y - 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ skinSelectorTxt.destroy(); }});
+					FlxTween.tween(bfSkin, {y: bfSkin.y + 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ bfSkin.destroy(); }});
+					FlxTween.tween(bfTxt, {y: bfTxt.y - 192, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ bfTxt.destroy(); }});
+					FlxTween.tween(gfSkin, {y: gfSkin.y + 96, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ gfSkin.destroy(); }});
+					FlxTween.tween(gfTxt, {y: gfTxt.y - 160, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ gfTxt.destroy(); }});
 
 					if (!ClientPrefs.lowQuality)
 					{
-						FlxTween.tween(iconBFBG, {x: -100, y: -100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconBFBG); }});
-						FlxTween.tween(iconBF, {x: iconBF.x - 100, y: iconBF.y - 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconBF); }});
-						FlxTween.tween(iconGFBG, {x: -100, y: -100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconGFBG); }});
-						FlxTween.tween(iconGF, {x: iconGF.x + 100, y: iconGF.y + 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ remove(iconGF); }});
+						FlxTween.tween(iconBFBG, {x: -100, y: -100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ iconBFBG.destroy(); }});
+						FlxTween.tween(iconBF, {x: iconBF.x - 100, y: iconBF.y - 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ iconBF.destroy(); }});
+						FlxTween.tween(iconGFBG, {x: 100, y: 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ iconGFBG.destroy(); }});
+						FlxTween.tween(iconGF, {x: iconGF.x + 100, y: iconGF.y + 100, alpha: 0}, 0.55, {ease: FlxEase.quadOut, onComplete: function(twn:FlxTween){ iconGF.destroy(); }});
 					}
 				});
 
@@ -1777,7 +1778,7 @@ class PlayState extends MusicBeatState
 
 		switch (curCharacter) {
 		case 0:
-			remove(bfSkin);
+			bfSkin.destroy();
 			bfSkin = new Character((FlxG.width * 0.5) - 480, (FlxG.height * 0.5) - 224, bfCostumes[curBFSkin]);
 			bfSkin.setGraphicSize(Std.int(bfSkin.width * 0.75));
 			bfSkin.scrollFactor.set();
@@ -1791,7 +1792,7 @@ class PlayState extends MusicBeatState
 			FlxTween.tween(bfTxt, {y: bfTxt.y + 16, alpha: 1}, 0.075);
 
 		case 1:
-			remove(gfSkin);
+			gfSkin.destroy();
 			gfSkin = new Character((FlxG.width * 0.5) + 64, (FlxG.height * 0.5) - 232, gfCostumes[curGFSkin]);
 			gfSkin.setGraphicSize(Std.int(gfSkin.width * 0.75));
 			gfSkin.scrollFactor.set();
@@ -2680,9 +2681,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingName == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' | Health: ' + health * 100 + '%';
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Health: ' + (health * 50) + '%' + '\n\n\nRating: ' + ratingName;
 		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' | Health: ' + health * 100 + '%' + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeps wanted no integer rating
+			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Health: ' + (health * 50) + '%' + '\n\n\nRating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeps wanted no integer rating
 		}
 
 		if(botplayTxt.visible) {
@@ -2718,16 +2719,16 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
+		var mult:Float = FlxMath.lerp(1, 0.75, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
 		iconP1.scale.set(mult, mult);
 		iconP1.updateHitbox();
 
-		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
+		var mult:Float = FlxMath.lerp(1, 0.75, CoolUtil.boundTo(1 - (elapsed * 9), 0, 1));
 		iconP2.scale.set(mult, mult);
 		iconP2.updateHitbox();
 
-		iconP1.x = healthBar.x + healthBar.width + iconP1.scale.x;
-		iconP2.x = healthBar.x - (150 * iconP2.scale.x);
+		iconP1.x = healthBar.x + (healthBar.width - 16);
+		iconP2.x = healthBar.x - 136;
 
 		if (health > 2)
 			health = 2;
@@ -2750,7 +2751,6 @@ class PlayState extends MusicBeatState
 			persistentUpdate = false;
 			paused = true;
 			cancelMusicFadeTween();
-			skinSelectMusic.destroy();
 			MusicBeatState.switchState(new CharacterEditorState(SONG.player2));
 		}
 
@@ -2995,7 +2995,6 @@ class PlayState extends MusicBeatState
 		persistentUpdate = false;
 		paused = true;
 		cancelMusicFadeTween();
-		skinSelectMusic.destroy();
 		MusicBeatState.switchState(new ChartingState());
 		chartingMode = true;
 
