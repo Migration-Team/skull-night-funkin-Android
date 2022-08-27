@@ -1,0 +1,80 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": "ring",
+		"player1": "bf",
+		"player2": "pngwulf",
+		"player3": null,
+		"events": [
+			[
+				19591.8367346939,
+				[
+					[
+						"Add Camera Zoom",
+						"0.7",
+						"0.7"
+					]
+				]
+			],
+			[
+				24489.7959183673,
+				[
+					[
+						"Add Camera Zoom",
+						"0.8",
+						"0.8"
+					]
+				]
+			],
+			[
+				63673.469387755,
+				[
+					[
+						"CamZoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				83265.306122449,
+				[
+					[
+						"CamZoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				93061.224489796,
+				[
+					[
+						"Add Camera Zoom",
+						"0.7",
+						"0.7"
+					]
+				]
+			],
+			[
+				107755.102040816,
+				[
+					[
+						"Add Camera Zoom",
+						"0.8",
+						"0.8"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 196,
+		"mania": 6,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "thunderwulf"
+	}
+}

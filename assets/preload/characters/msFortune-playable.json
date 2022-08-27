@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-8,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Cat Idle"
+		},
+		{
+			"offsets": [
+				104,
+				-193
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Cat Down"
+		},
+		{
+			"offsets": [
+				45,
+				11
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Cat Up"
+		},
+		{
+			"offsets": [
+				44,
+				12
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Cat Miss Up"
+		},
+		{
+			"offsets": [
+				105,
+				-175
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Cat Miss Down"
+		},
+		{
+			"offsets": [
+				310,
+				-70
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "Cat Pre Attack"
+		},
+		{
+			"offsets": [
+				397,
+				-71
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "Cat Attack"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-65,
+				-45
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Cat Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				207,
+				-107
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Cat Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-66,
+				-7
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Cat Miss Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				205,
+				-110
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Cat Miss Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-13
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "Cat Hit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				20
+			],
+			"anim": "dodge",
+			"fps": 24,
+			"name": "Cat Dodge",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Cat",
+	"position": [
+		-180,
+		-60
+	],
+	"healthicon": "msfortune",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		154,
+		154
+	],
+	"camera_position": [
+		310,
+		30
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

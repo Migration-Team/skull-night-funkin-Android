@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Filia Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				40,
+				30
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Filia Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				23,
+				-130
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Filia Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-25,
+				331
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Filia Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-110,
+				49
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Filia Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				89,
+				47
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Filia Miss Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				26,
+				-129
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Filia Miss Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				331
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Filia Miss Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-110,
+				49
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "Filia Miss Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				140,
+				47
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hurt",
+			"indices": [],
+			"name": "Filia Hurt"
+		},
+		{
+			"offsets": [
+				42,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "Filia Block"
+		},
+		{
+			"offsets": [
+				-130,
+				109
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "Filia Attack"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "Filia Pre Attack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Filia",
+	"position": [
+		-110,
+		40
+	],
+	"healthicon": "filia",
+	"flip_x": false,
+	"healthbar_colors": [
+		66,
+		46,
+		104
+	],
+	"camera_position": [
+		-70,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
