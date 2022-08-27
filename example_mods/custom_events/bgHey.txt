@@ -1,0 +1,2 @@
+activates the HEY! animation of the bg characters
+only works in the peacock's stage
