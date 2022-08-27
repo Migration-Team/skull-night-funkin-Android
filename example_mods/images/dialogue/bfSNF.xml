@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="bfSNF.png">
-<SubTexture name="normal0000" x="1488" y="0" width="697" height="804" frameX="-214" frameY="-217" frameWidth="1054" frameHeight="1158" />
-<SubTexture name="scared0000" x="0" y="805" width="697" height="804" frameX="-214" frameY="-217" frameWidth="1054" frameHeight="1158" />
-<SubTexture name="sweating0000" x="697" y="805" width="697" height="804" frameX="-214" frameY="-217" frameWidth="1054" frameHeight="1158" />
-<SubTexture name="yeah0000" x="0" y="0" width="817" height="805" frameX="-23" frameY="-216" frameWidth="1054" frameHeight="1158" />
-<SubTexture name="pog0000" x="817" y="0" width="671" height="805" frameX="-211" frameY="-216" frameWidth="1054" frameHeight="1158" />
-</TextureAtlas>
