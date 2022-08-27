@@ -1,0 +1,76 @@
+{
+	"position": [
+		-130,
+		-370
+	],
+	"dialogue_pos": "right",
+	"scale": 0.75,
+	"image": "bfSNF",
+	"animations": [
+		{
+			"idle_offsets": [
+				-1,
+				-12
+			],
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "talk",
+			"idle_name": "normal",
+			"loop_name": "normal"
+		},
+		{
+			"idle_offsets": [
+				4,
+				-3
+			],
+			"anim": "excited",
+			"loop_offsets": [
+				5,
+				-3
+			],
+			"idle_name": "pog",
+			"loop_name": "pog"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-10
+			],
+			"anim": "scared",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"loop_name": "scared",
+			"idle_name": "scared"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-10
+			],
+			"anim": "sweating",
+			"idle_offsets": [
+				0,
+				-10
+			],
+			"loop_name": "sweating",
+			"idle_name": "sweating"
+		},
+		{
+			"loop_offsets": [
+				-30,
+				0
+			],
+			"anim": "yeah",
+			"idle_offsets": [
+				-30,
+				0
+			],
+			"loop_name": "yeah",
+			"idle_name": "yeah"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+<TextureAtlas imagePath="cursed name on fla.png">
+<!--  Created with Adobe Animate version 21.0.9.42677  -->
+<!--  http://www.adobe.com/products/animate.html  -->
+<SubTexture name="smash or pass?????0000" x="0" y="0" width="974" height="646" frameX="0" frameY="-19" frameWidth="974" frameHeight="665"/>
+<SubTexture name="smash or pass?????0001" x="0" y="0" width="974" height="646" frameX="0" frameY="-19" frameWidth="974" frameHeight="665"/>
+<SubTexture name="smash or pass?????0002" x="974" y="0" width="974" height="659" frameX="0" frameY="-6" frameWidth="974" frameHeight="665"/>
+<SubTexture name="smash or pass?????0003" x="974" y="0" width="974" height="659" frameX="0" frameY="-6" frameWidth="974" frameHeight="665"/>
+<SubTexture name="smash or pass?????0004" x="0" y="659" width="974" height="664" frameX="0" frameY="-1" frameWidth="974" frameHeight="665"/>
+<SubTexture name="smash or pass?????0005" x="0" y="659" width="974" height="664" frameX="0" frameY="-1" frameWidth="974" frameHeight="665"/>
+<SubTexture name="smash or pass?????0006" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0007" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0008" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0009" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0010" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0011" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0012" x="974" y="659" width="974" height="665"/>
+<SubTexture name="smash or pass?????0013" x="974" y="659" width="974" height="665"/>
+</TextureAtlas>

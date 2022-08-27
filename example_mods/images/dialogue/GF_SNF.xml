@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="GF_SNF.png">
+<SubTexture name="gf idle0000" x="0" y="0" width="745" height="965" frameX="-207" frameY="-55" frameWidth="1054" frameHeight="1158" />
+<SubTexture name="gf ohno0000" x="745" y="0" width="976" height="965" frameX="-38" frameY="-55" frameWidth="1054" frameHeight="1158" />
+<SubTexture name="gf somad0000" x="1721" y="0" width="745" height="965" frameX="-207" frameY="-55" frameWidth="1054" frameHeight="1158" />
+<SubTexture name="gf scared0000" x="0" y="965" width="745" height="965" frameX="-207" frameY="-55" frameWidth="1054" frameHeight="1158" />
+<SubTexture name="gf yey0000" x="745" y="965" width="745" height="965" frameX="-207" frameY="-55" frameWidth="1054" frameHeight="1158" />
+<SubTexture name="gf mad0000" x="1490" y="965" width="745" height="965" frameX="-207" frameY="-55" frameWidth="1054" frameHeight="1158" />
+</TextureAtlas>
