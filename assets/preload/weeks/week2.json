@@ -1,0 +1,31 @@
+{
+	"storyName": "You are not supposed to see this",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"thunderwulf",
+			"wulf",
+			[
+				60,
+				0,
+				60
+			]
+		]
+	],
+	"weekName": "Custom Week"
+}

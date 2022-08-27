@@ -1,0 +1,58 @@
+{
+	"storyName": "Ladies and gentleman, it's showtime!",
+	"difficulties": "Easy, Normal, Hard, Gehenna",
+	"hideFreeplay": false,
+	"weekBackground": "encore",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "week0",
+	"startUnlocked": false,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"hairmess",
+			"filia",
+			[
+				65,
+				42,
+				104
+			]
+		],
+		[
+			"hellcat",
+			"msfortune",
+			[
+				54,
+				105,
+				119
+			]
+		],
+		[
+			"painted red",
+			"peacock",
+			[
+				195,
+				44,
+				51
+			]
+		],
+		[
+			"flatline",
+			"valentine",
+			[
+				55,
+				84,
+				171
+			]
+		]
+	],
+	"weekName": "skullgirls but fnf mod"
+}

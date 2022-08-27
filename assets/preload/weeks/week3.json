@@ -1,0 +1,49 @@
+{
+	"storyName": "You are not supposed to see this",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"RIP",
+			"valentine",
+			[
+				60,
+				0,
+				60
+			]
+		],
+		[
+			"polkkarasite",
+			"filia",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"strapped",
+			"pico",
+			[
+				66,
+				173,
+				173
+			]
+		]
+	],
+	"weekName": "Custom Week"
+}
