@@ -1,5 +1,0 @@
-gf
-gf-skin filia
-gf-skin annie
-gf-christmas
-gf-pixel
