@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				45,
+				210
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				290,
+				263
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				23,
+				30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				185,
+				421
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-170,
+				239
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				-1,
+				423
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "attack",
+			"loop": false,
+			"name": "Attack"
+		},
+		{
+			"offsets": [
+				390,
+				180
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "hurt",
+			"loop": false,
+			"name": "Hurt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Samson",
+	"position": [
+		-110,
+		40
+	],
+	"healthicon": "samsom",
+	"flip_x": false,
+	"healthbar_colors": [
+		66,
+		46,
+		104
+	],
+	"camera_position": [
+		-70,
+		-100
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
