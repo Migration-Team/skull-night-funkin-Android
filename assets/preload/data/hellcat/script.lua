@@ -1,7 +1,29 @@
 function onCreate()
+
+	precacheImage('fishbone/prrsonal')
+
     setPropertyFromClass('GameOverSubstate', 'deathSoundName', 'rip bozo'); --put in mods/sounds/
 	setPropertyFromClass('GameOverSubstate', 'loopSoundName', 'Nightshow'); --put in mods/music/
 	setPropertyFromClass('GameOverSubstate', 'endSoundName', 'Retryshow'); --put in mods/music/
+
+	if not lowQuality then
+		--- msfortune cuote sprite cause the object play animation event is kinda poopy
+		makeAnimatedLuaSprite('catussy', 'fishbone/prrsonal', -200, 80)
+		setScrollFactor('catussy', 1, 1)
+		addAnimationByPrefix('catussy', 'cuote', 'prrsonal', 24, false)
+	end
+end
+
+function onEvent(name)
+	if name == 'ON' and not lowQuality then
+		setProperty('dad.alpha', 0)
+		addLuaSprite('catussy', true)
+		objectPlayAnimation('catussy', 'cuote', false)
+	end
+	if name == 'OFF' and not lowQuality then
+		removeLuaSprite('catussy')
+		setProperty('dad.alpha', 1)
+	end
 end
 
 function onGameOver()
