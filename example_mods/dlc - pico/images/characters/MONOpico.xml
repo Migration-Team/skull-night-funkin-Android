@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MONOpico.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Pico Dodge0000" x="0" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0001" x="774" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0002" x="1548" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0003" x="2322" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0004" x="3096" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0005" x="3870" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0006" x="4644" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0007" x="5418" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0008" x="6192" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0009" x="6966" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0010" x="3096" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0011" x="3870" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0012" x="4644" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Dodge0013" x="5418" y="0" width="774" height="676"/>
+	<SubTexture name="Pico Hurt0000" x="0" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0001" x="774" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0002" x="1548" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0003" x="1548" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0004" x="2322" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0005" x="2322" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0006" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0007" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0008" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0009" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0010" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0011" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0012" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Hurt0013" x="3096" y="676" width="774" height="675"/>
+	<SubTexture name="Pico Idle Dance0000" x="3870" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0001" x="3870" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0002" x="4643" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0003" x="4643" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0004" x="5416" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0005" x="6189" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0006" x="6962" y="676" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0007" x="0" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0008" x="773" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0009" x="773" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0010" x="773" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0011" x="773" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0012" x="773" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Idle Dance0013" x="773" y="1351" width="773" height="675"/>
+	<SubTexture name="Pico Reload0000" x="1546" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0001" x="1546" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0002" x="2319" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0003" x="3092" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0004" x="3092" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0005" x="3865" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0006" x="3865" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0007" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0008" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0009" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0010" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0011" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0012" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Reload0013" x="4638" y="1351" width="773" height="676"/>
+	<SubTexture name="Pico Shoot0000" x="5411" y="1351" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0001" x="6386" y="1351" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0002" x="0" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0003" x="975" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0004" x="1950" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0005" x="1950" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0006" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0007" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0008" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0009" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0010" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0011" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0012" x="2925" y="2203" width="975" height="852"/>
+	<SubTexture name="Pico Shoot0013" x="2925" y="2203" width="975" height="852"/>
+</TextureAtlas>
