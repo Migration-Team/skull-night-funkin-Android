@@ -165,6 +165,7 @@ class TitleState extends MusicBeatState
 
 	var logoBl:FlxSprite;
 	var gfDance:FlxSprite;
+	var backgroundtitle:FlxSprite;
 	var danceLeft:Bool = false;
 	var titleText:FlxSprite;
 	var swagShader:ColorSwap = null;
@@ -219,6 +220,7 @@ class TitleState extends MusicBeatState
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
 		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
+		logoBl.setGraphicSize(Std.int(logoBl.width * 1.4));
 		
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
 		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
@@ -226,6 +228,10 @@ class TitleState extends MusicBeatState
 		logoBl.updateHitbox();
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
+
+		backgroundtitle = new FlxSprite().loadGraphic(Paths.image('titleBG'));
+		backgroundtitle.screenCenter();
+		backgroundtitle.antialiasing = ClientPrefs.globalAntialiasing;
 
 		swagShader = new ColorSwap();
 		gfDance = new FlxSprite(titleJSON.gfx, titleJSON.gfy);
@@ -235,8 +241,10 @@ class TitleState extends MusicBeatState
 		gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
 		
-		add(gfDance);
-		gfDance.shader = swagShader.shader;
+		add(backgroundtitle);
+		backgroundtitle.shader = swagShader.shader;
+		//add(gfDance);
+		//gfDance.shader = swagShader.shader;
 		add(logoBl);
 		logoBl.shader = swagShader.shader;
 
@@ -497,13 +505,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('A new skullgirl has riden');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('who will defeat her');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('and claim the skull heart?'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
