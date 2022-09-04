@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Valentine Idle"
+		},
+		{
+			"offsets": [
+				-230,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Valentine Left"
+		},
+		{
+			"offsets": [
+				-87,
+				-150
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Valentine Down"
+		},
+		{
+			"offsets": [
+				-182,
+				60
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Valentine Up"
+		},
+		{
+			"offsets": [
+				-230,
+				39
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Valentine Right"
+		},
+		{
+			"offsets": [
+				-115,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Valentine Miss Left"
+		},
+		{
+			"offsets": [
+				-146,
+				-71
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Valentine Miss Down"
+		},
+		{
+			"offsets": [
+				-169,
+				56
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Valentine Miss Up"
+		},
+		{
+			"offsets": [
+				-304,
+				10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Valentine Miss Right"
+		},
+		{
+			"offsets": [
+				-26,
+				97
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hurt",
+			"indices": [],
+			"name": "Valentine Hurt"
+		},
+		{
+			"offsets": [
+				-38,
+				-43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "dodge",
+			"indices": [],
+			"name": "Valentine Dodge"
+		},
+		{
+			"offsets": [
+				-180,
+				209
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "attack",
+			"indices": [],
+			"name": "Valentine Attack"
+		},
+		{
+			"offsets": [
+				-50,
+				170
+			],
+			"loop": false,
+			"fps": 25,
+			"anim": "pre-attack",
+			"indices": [],
+			"name": "Valentine Pre Attack"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Valentine",
+	"position": [
+		-350,
+		50
+	],
+	"healthicon": "valentine",
+	"flip_x": false,
+	"healthbar_colors": [
+		64,
+		71,
+		117
+	],
+	"camera_position": [
+		-30,
+		-220
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
