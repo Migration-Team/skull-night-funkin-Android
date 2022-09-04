@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Valentine.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Valentine Attack0000" x="0" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0001" x="1316" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0002" x="2632" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0003" x="3948" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0004" x="5264" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0005" x="5264" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0006" x="6580" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0007" x="6580" y="0" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0008" x="0" y="1190" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0009" x="0" y="1190" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0010" x="0" y="1190" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0011" x="0" y="1190" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0012" x="0" y="1190" width="1316" height="1190"/>
+	<SubTexture name="Valentine Attack0013" x="0" y="1190" width="1316" height="1190"/>
+	<SubTexture name="Valentine Dodge0000" x="1316" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0001" x="2396" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0002" x="3476" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0003" x="3476" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0004" x="4556" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0005" x="4556" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0006" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0007" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0008" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0009" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0010" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0011" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0012" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Dodge0013" x="5636" y="1190" width="1080" height="977"/>
+	<SubTexture name="Valentine Down0000" x="6716" y="1190" width="915" height="827"/>
+	<SubTexture name="Valentine Down0001" x="6716" y="1190" width="915" height="827"/>
+	<SubTexture name="Valentine Down0002" x="0" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0003" x="0" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0004" x="915" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0005" x="915" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0006" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0007" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0008" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0009" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0010" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0011" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0012" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Down0013" x="1830" y="2380" width="915" height="827"/>
+	<SubTexture name="Valentine Hurt0000" x="2745" y="2380" width="644" height="710" frameX="-148" frameY="-153" frameWidth="933" frameHeight="1004"/>
+	<SubTexture name="Valentine Hurt0001" x="3389" y="2380" width="644" height="710" frameX="-148" frameY="-153" frameWidth="933" frameHeight="1004"/>
+	<SubTexture name="Valentine Hurt0002" x="4033" y="2380" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0003" x="4966" y="2380" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0004" x="5899" y="2380" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0005" x="6832" y="2380" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0006" x="0" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0007" x="933" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0008" x="1866" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0009" x="2799" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0010" x="1866" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0011" x="2799" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0012" x="1866" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Hurt0013" x="2799" y="3384" width="933" height="1004"/>
+	<SubTexture name="Valentine Idle0000" x="3732" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0001" x="3732" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0002" x="4647" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0003" x="4647" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0004" x="5562" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0005" x="5562" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0006" x="6477" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0007" x="6477" y="3384" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0008" x="0" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0009" x="0" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0010" x="915" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0011" x="915" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0012" x="915" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Idle0013" x="915" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0000" x="1830" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0001" x="1830" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0002" x="2745" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0003" x="2745" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0004" x="3660" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0005" x="3660" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0006" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0007" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0008" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0009" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0010" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0011" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0012" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Left0013" x="4575" y="4388" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Down0000" x="5490" y="4388" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0001" x="6405" y="4388" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0002" x="6405" y="4388" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0003" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0004" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0005" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0006" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0007" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0008" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0009" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0010" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0011" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0012" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Down0013" x="0" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Left0000" x="915" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0001" x="1830" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0002" x="1830" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0003" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0004" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0005" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0006" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0007" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0008" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0009" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0010" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0011" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0012" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Left0013" x="2745" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Right0000" x="3660" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0001" x="4575" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0002" x="4575" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0003" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0004" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0005" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0006" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0007" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0008" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0009" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0010" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0011" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0012" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Right0013" x="5490" y="5216" width="915" height="828"/>
+	<SubTexture name="Valentine Miss Up0000" x="6405" y="5216" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0001" x="0" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0002" x="0" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0003" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0004" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0005" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0006" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0007" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0008" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0009" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0010" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0011" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0012" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Miss Up0013" x="915" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Pre Attack0000" x="1830" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0001" x="1830" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0002" x="2946" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0003" x="2946" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0004" x="4062" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0005" x="4062" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0006" x="4062" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0007" x="4062" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Pre Attack0008" x="4062" y="6044" width="1116" height="1010"/>
+	<SubTexture name="Valentine Right0000" x="5178" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Right0001" x="5178" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Right0002" x="6093" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Right0003" x="6093" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Right0004" x="7008" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Right0005" x="7008" y="6044" width="915" height="827"/>
+	<SubTexture name="Valentine Right0006" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0007" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0008" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0009" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0010" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0011" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0012" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Right0013" x="0" y="7054" width="915" height="827"/>
+	<SubTexture name="Valentine Up0000" x="915" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0001" x="915" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0002" x="1830" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0003" x="1830" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0004" x="2745" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0005" x="2745" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0006" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0007" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0008" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0009" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0010" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0011" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0012" x="3660" y="7054" width="915" height="829"/>
+	<SubTexture name="Valentine Up0013" x="3660" y="7054" width="915" height="829"/>
+</TextureAtlas>
