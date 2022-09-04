@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pokemon.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pokemon0000" x="0" y="0" width="590" height="563" frameX="0" frameY="-18" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0001" x="0" y="0" width="590" height="563" frameX="0" frameY="-18" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0002" x="590" y="0" width="590" height="575" frameX="0" frameY="-6" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0003" x="590" y="0" width="590" height="575" frameX="0" frameY="-6" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0004" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0005" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0006" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0007" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0008" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0009" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0010" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0011" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0012" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+	<SubTexture name="pokemon0013" x="1180" y="0" width="590" height="579" frameX="0" frameY="0" frameWidth="590" frameHeight="581"/>
+</TextureAtlas>
