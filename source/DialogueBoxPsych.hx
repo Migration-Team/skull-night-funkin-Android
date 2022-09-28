@@ -170,7 +170,6 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	public var finishThing:Void->Void;
 	public var nextDialogueThing:Void->Void = null;
 	public var skipDialogueThing:Void->Void = null;
-	var bgFade:FlxSprite = null;
 	var box:FlxSprite;
 	var textToType:String = '';
 
@@ -192,12 +191,6 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.playMusic(Paths.music(song), 0);
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
-		
-		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
-		bgFade.scrollFactor.set();
-		bgFade.visible = true;
-		bgFade.alpha = 0;
-		add(bgFade);
 
 		this.dialogueList = dialogueList;
 		spawnCharacters();
@@ -290,9 +283,6 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 
 		if(!dialogueEnded) {
-			bgFade.alpha += 0.5 * elapsed;
-			if(bgFade.alpha > 0.5) bgFade.alpha = 0.5;
-
 			if(PlayerSettings.player1.controls.ACCEPT) {
 				if(!daText.finishedText) {
 					if(daText != null) {
@@ -400,16 +390,6 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				box = null;
 			}
 
-			if(bgFade != null) {
-				bgFade.alpha -= 0.5 * elapsed;
-				if(bgFade.alpha <= 0) {
-					bgFade.kill();
-					remove(bgFade);
-					bgFade.destroy();
-					bgFade = null;
-				}
-			}
-
 			for (i in 0...arrayCharacters.length) {
 				var leChar:DialogueCharacter = arrayCharacters[i];
 				if(leChar != null) {
@@ -425,7 +405,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				}
 			}
 
-			if(box == null && bgFade == null) {
+			if(box == null) {
 				for (i in 0...arrayCharacters.length) {
 					var leChar:DialogueCharacter = arrayCharacters[0];
 					if(leChar != null) {
